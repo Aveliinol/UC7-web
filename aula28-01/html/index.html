@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> <!--lang é um atributo que define o idioma do conteúdo do elemento -->
+<head> 
+    <meta charset="UTF-8"> <!-- charset é um atributo que define o conjunto de caracteres usados no documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport é um atributo que define a largura da
+     página e a escala inicial do zoom-->
+    <title>Edutech</title> 
+    <link rel="stylesheet" href="../css/style.css">
+</head> 
+<body> 
+<header> 
+     <h1 id = "home">Edutech</h1> 
+     <nav> 
+       <ul> <!-- ul é um elemento que define uma lista não ordenada -->
+            <li><a href="#sobre">Sobre</a></li> <!-- href é um atributo que define o link de destino -->
+            <li><a href="#palestrantes">Palestrantes</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#contato">Contato</a></li>
+       </ul>
+    </nav> <!-- nav é um elemento que define uma seção de navegação -->
+</header>
+<main>
+    <section id="sobre"> <!-- id é um atributo que define um identificador único para um elemento -->
+        <h2>Sobre o evento</h2> 
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+         Accusantium reprehenderit autem sint molestiae consectetur?
+         Porro placeat ex corporis nobis aliquam et
+         mollitia quos possimus! Animi vitae aspernatur ex culpa soluta? <p>
+    </section> <!-- section é um elemento que define uma seção em um documento -->
+    <section id="Palestrantes">
+        <h2>Palestrante</h2>
+        <ul> 
+            <li>
+                <strong>Maria Silva</strong> - Engenheira de Software e
+                Especialista em ia.
+            </li>
+            <li>
+                <strong>João Souza</strong> - Desenvolvedor 
+                Front-end e Palestrante Internacional.
+            </li>
+            <li>
+                <strong>Ana Costa</strong> - Pesquisadora em 
+                Cibersegurança.
+            </li> 
+        </ul>
+    </section> 
+    <section id="agenda">
+        <h2>Agenda</h2>
+        <table border="1"> <!-- table é um elemento que define uma tabela -->
+            <thead> <!-- thead é um elemento que define um cabeçalho de uma tabela -->
+                <tr> <!-- tr é um elemento que define uma linha em uma tabela -->
+                    <th>Horário</th> <!-- th é um elemento que define um cabeçalho de uma tabela -->
+                    <th>Atividade</th>
+                    <th>Palestrante</th>
+                </tr>
+            </thead>
+            <tbody> <!-- tbody é um elemento que define o conteúdo de uma tabela -->
+                <tr>
+                    <td>09:00</td>
+                    <td>Abertura</td>
+                    <td>Equipe Organizadora</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td>Tecnologias Emergentes na Educação</td>
+                    <td>Maria Silva</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Desenvolvimento de Sistema Web para Educação</td>
+                    <td>João Souza</td>
+                </tr>
+            </tbody>
+        </table>
+    </section> 
+    <section id="contato">
+        <h2>Contato</h2>
+         <form action="" method="post">
+            <label for="email">E-mail: </label> <!-- label é um elemento que define um rótulo para um elemento de formulário -->
+            <input type="email" id="email" name="email"
+            placeholder="Digite seu email"> <!-- input é um elemento que define um campo de entrada --> 
+<br> <!-- br é um elemento que define uma quebra de linha -->
+            <label for="nome">Nome: </label>
+            <input type="nome" id="nome" name="nome"
+            placeholder="Digite seu Nome"> <!-- placeholder é um atributo que define um texto de exemplo para um campo de entrada -->
+<br>
+            <label for="mensagem">Dgite sua mensagem </label> <br>
+            <textarea id="mensagem" name="mensagem"></textarea> <br> <!-- textarea é um elemento que define um campo de texto multilinha -->
+            <input type="submit" value="Enviar dados"
+         </form>
+
+    </section>
+    <footer>
+        <p> &copy; 2025 Edutech. Todos os direitos reservados.</p>
+    </footer>
+</main> 
+</body>
+</html>
