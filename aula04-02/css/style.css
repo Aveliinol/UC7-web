@@ -1,0 +1,151 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: forestgreen; 
+     color: white;
+     padding: 1.25rem; 
+     margin-bottom: 1.25rem;
+     text-align: center; 
+   }
+
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    background-color: darkgreen;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+ */
+
+
+:root{
+    --cor-primaria: #0077b6;
+    --cor-secundaria: #023e8a;
+    --cor-fundo: #f4f4f4;
+    --espacamento: 1.25rem;
+    --cor-texto: #333;
+    --borda-arrendondada: 0.625rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    text-align: center;
+}
+
+header{
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: var(--espacamento);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:var(--borda-arrendondada);
+    margin-top: 0.5rem;
+}  
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 2rem;
+    margin-top: var(--espacamento);
+}
+
+#palestrantes{
+    padding: var(--espacamento);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--espacamento);
+    margin-top: var(--espacamento);
+}
+
+.card{
+    background-color: white;
+    border-radius: var(--borda-arrendondada);
+    padding: var(--espacamento);
+    width: 15rem;
+    text-align: center;
+    box-shadow: 0.3125rem 0.3125rem 0.9375rem rgba(0,0,0,0.2)
+}
+
+.card img{
+     width: 100%;
+     height: 12rem;
+     border-radius: var(--borda-arrendondada);
+     object-fit:cover;
+}
+
+#inscricao{
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 2rem;
+    margin-top: var(--espacamento); 
+}
+
+#inscricao button{
+    background-color: white;
+    color: var(--cor-primaria);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--borda-arrendondada);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#inscricao button:hover{
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+
+footer{
+    background-color: var(--cor-primaria);
+    color: white;
+    margin: var(--espacamento);
+    padding: var(--espacamento);
+}
