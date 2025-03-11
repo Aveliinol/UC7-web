@@ -1,0 +1,18 @@
+.aside {
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao);
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+    color: white;
+}
+
+.aside h2 {
+    font-size: var(--tamanho-h2);
+    margin: 0;
+}
+
+.aside p {
+    font-size: var(--tamanho-p);
+    text-align: justify;
+}
