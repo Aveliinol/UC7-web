@@ -1,16 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Aside from "./components/Aside";
-import Main from "./components/Main";
+import Home from "./pages/Home";
 
 function App() {
  return(
   <>
-  <Header/>
-  <Main/>
-  <Aside/>
-  <Footer/>
+  <Home/>
   </>
  )
 }
