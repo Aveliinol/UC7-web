@@ -1,0 +1,9 @@
+.BandDetalhes{
+    object-fit: cover;
+    margin-right: var(--margin-padrao);
+    margin-bottom: var(--margin-padrao);
+    margin: 16rem;
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao); 
+    border-radius: 1rem;
+}
