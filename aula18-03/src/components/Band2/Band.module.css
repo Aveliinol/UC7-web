@@ -12,3 +12,9 @@
     .Bandinfo { 
         flex: 1;
      }
+
+.Band button{
+    border-radius: 4rem;
+    padding: 9px;
+    background-color: #111;
+}
