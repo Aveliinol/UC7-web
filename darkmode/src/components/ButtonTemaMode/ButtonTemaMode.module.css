@@ -1,0 +1,38 @@
+.dark{
+    background-color: #222;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.light{
+    background-color: white;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: darkmagenta;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    background-color: magenta;
+}
