@@ -1,0 +1,7 @@
+.InputField {
+    margin: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}

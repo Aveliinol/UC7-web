@@ -1,9 +1,10 @@
 import React from "react";
+import style from "./InuptField.module.css";
 
 function InputField({label, value, onChange}){
     return(
         <>
-      <div>
+      <div className={style.InputField}>
         <label>{label}</label>
         <input type="number" value={value} onChange={onChange}/>
       </div>
