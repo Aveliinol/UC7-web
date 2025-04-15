@@ -1,0 +1,27 @@
+.container {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .titulo {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .input {
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+  }
+  .botao {
+    padding: 0.3rem 0.6rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  .resultado {
+    margin-top: 0.5rem;
+  }
+  

@@ -1,11 +1,11 @@
 import React from 'react'
-import ListarAlunos from './pages/ListarAlunos/ListarAlunos'
+import GerenciarAluno from "./pages/GerenciarAluno/GerenciarAluno"
 
 function App() {
 
   return (
     <>
-      <ListarAlunos />
+     <GerenciarAluno/>
     </>
   )
 }
