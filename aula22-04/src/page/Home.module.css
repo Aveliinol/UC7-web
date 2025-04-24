@@ -1,4 +1,14 @@
-@media screen and (min-width:668px) {
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+  }
+
+  @media screen and (min-width:668px){
     main{
         flex-direction: row;
     }
